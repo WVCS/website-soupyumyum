@@ -1,19 +1,41 @@
-body {
 img {
-  width:750xpx
-  border: black 50px dotted;
+  width: 750px; /* Fixed: changed '750xpx' to '750px' */
+ 
 }
 
 body {
- background-color: grey; 
+  background-color: grey; 
 }
-h1{
+
+h1 {
   color: white;
   text-decoration: underline overline;
-    text-shadow: 0 0 13px black;
-}
-h2:hober{
-  text-shadow: 0 0 13px black
+  text-shadow: 0 0 13px black;
 }
 
+/* Fixed: changed ':hober' to ':hover' */
+h2:hover {
+  text-shadow: 0 0 13px black;
+}
+
+/* --- New Navigation Bar Styles --- */
+.navbar {
+  text-align: center;
+  background-color: #333;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  color: lightgrey;
+  text-decoration: underline;
 }
