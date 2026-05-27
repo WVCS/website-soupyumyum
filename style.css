@@ -39,3 +39,25 @@ h2:hover {
   color: lightgrey;
   text-decoration: underline;
 }
+
+/* --- Projects Page Layout --- */
+.project-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Puts some space between the two apps */
+  flex-wrap: wrap; /* Allows them to stack on smaller screens */
+  padding: 20px;
+}
+
+.project-card {
+  background-color: rgba(255, 255, 255, 0.1); /* Adds a subtle dark/light tint box behind the app */
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.project-card h2 {
+  color: white;
+  font-family: sans-serif;
+  margin-bottom: 15px;
+}
